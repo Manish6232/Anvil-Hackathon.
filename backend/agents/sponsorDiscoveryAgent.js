@@ -1,0 +1,98 @@
+const sponsorDiscoveryAgent = async (campaign) => {
+  const sponsors = [
+    {
+      name: "Coding Blocks",
+      website: "https://codingblocks.com",
+      category: "Coding Platform",
+      location: "India",
+      contactEmail: "partnerships@codingblocks.com",
+      contactConfidence: "HIGH",
+      sourceUrl: "https://codingblocks.com",
+    },
+    {
+      name: "Scaler",
+      website: "https://www.scaler.com",
+      category: "EdTech",
+      location: "Bengaluru",
+      contactEmail: "partnerships@scaler.com",
+      contactConfidence: "MEDIUM",
+      sourceUrl: "https://www.scaler.com",
+    },
+    {
+      name: "GeeksforGeeks",
+      website: "https://www.geeksforgeeks.org",
+      category: "Coding Platform",
+      location: "India",
+      contactEmail: "campus@geeksforgeeks.org",
+      contactConfidence: "MEDIUM",
+      sourceUrl: "https://www.geeksforgeeks.org",
+    },
+    {
+      name: "Third Wave Coffee",
+      website: "https://www.thirdwavecoffeeroasters.com",
+      category: "Cafe / Food Sponsor",
+      location: "Bengaluru",
+      contactEmail: "hello@thirdwavecoffee.in",
+      contactConfidence: "MEDIUM",
+      sourceUrl: "https://www.thirdwavecoffeeroasters.com",
+    },
+    {
+      name: "Blue Tokai Coffee",
+      website: "https://bluetokaicoffee.com",
+      category: "Cafe / Food Sponsor",
+      location: "India",
+      contactEmail: "support@bluetokaicoffee.com",
+      contactConfidence: "LOW",
+      sourceUrl: "https://bluetokaicoffee.com",
+    },
+    {
+      name: "WeWork Bengaluru",
+      website: "https://wework.co.in",
+      category: "Coworking Space",
+      location: "Bengaluru",
+      contactEmail: "events@wework.co.in",
+      contactConfidence: "MEDIUM",
+      sourceUrl: "https://wework.co.in",
+    },
+    {
+      name: "Razorpay",
+      website: "https://razorpay.com",
+      category: "Fintech / Startup Ecosystem",
+      location: "Bengaluru",
+      contactEmail: "partnerships@razorpay.com",
+      contactConfidence: "MEDIUM",
+      sourceUrl: "https://razorpay.com",
+    },
+    {
+      name: "CRED",
+      website: "https://cred.club",
+      category: "Fintech / Startup Ecosystem",
+      location: "Bengaluru",
+      contactEmail: "partnerships@cred.club",
+      contactConfidence: "LOW",
+      sourceUrl: "https://cred.club",
+    },
+    {
+      name: "Zoho",
+      website: "https://www.zoho.com",
+      category: "SaaS / Startup Tools",
+      location: "India",
+      contactEmail: "events@zohocorp.com",
+      contactConfidence: "MEDIUM",
+      sourceUrl: "https://www.zoho.com",
+    },
+    {
+      name: "Local Printing Partner",
+      website: "",
+      category: "Printing Vendor",
+      location: campaign.location,
+      contactEmail: "printpartner@example.com",
+      contactConfidence: "LOW",
+      sourceUrl: "",
+    },
+  ];
+
+  return sponsors;
+};
+
+module.exports = sponsorDiscoveryAgent;
